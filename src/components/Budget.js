@@ -6,7 +6,7 @@ const Budget = () => {
     const [newBudget, setNewBudget] = useState(budget);
     const handleBudgetChange = (event) => {
         if(event.target.value > 20000){
-            alert("The value cannot exceed remaining funds £20000")
+            alert("The budget cannot exceed 20.000")
             return;
         }
         setNewBudget(event.target.value);
