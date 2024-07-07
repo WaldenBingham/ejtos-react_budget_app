@@ -42,13 +42,13 @@ const ExpenseItem = (props) => {
                 <button 
                     onClick={event => increaseAllocation(props.name)}
                     style={{
-                        backgroundColor: "#e0f4e9",
+                        backgroundColor: "#2E8B57",
                         border: "none",
                         borderRadius: "50%",
                         width: "32px",
                         height: "32px",
-                        fontSize: "20px",
-                        color: "#4caf50",
+                        fontSize: "25px",
+                        color: "#FFFFFF",
                         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.2)",
                         display: "flex",
                         alignItems: "center",
@@ -62,13 +62,13 @@ const ExpenseItem = (props) => {
                 <button 
                     onClick={event => decreaseAllocation(props.name)}
                     style={{
-                        backgroundColor: "#ffe3e3",
+                        backgroundColor: "#880000",
                         border: "none",
                         borderRadius: "50%",
                         width: "32px",
                         height: "32px",
-                        fontSize: "20px",
-                        color: "#ff4f4f",
+                        fontSize: "25px",
+                        color: "#ffffff",
                         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.2)",
                         display: "flex",
                         alignItems: "center",
